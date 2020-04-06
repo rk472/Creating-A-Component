@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyFirstComponent from './MyFirstComponent';
 import * as serviceWorker from './serviceWorker';
-import MySecondComponent from './MySecondComponent';
-import Component3 from './Component3';
+import Component4 from './Component4';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Component3 />
+    <Component4 />
   </React.StrictMode>,
   document.getElementById('root123')
 );
